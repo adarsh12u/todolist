@@ -12,7 +12,7 @@
     /* text-align: center; */
     place-items: center;
   }
-  h1{
+  #h11 h1{
    
   
    
@@ -20,7 +20,7 @@
    position: relative;
    
   }
-  h1::before{
+  #h11 h1::before{
     /* width: 100%; */
     content: "GURJAR ";
    color: rgb(189, 62, 15);
@@ -96,7 +96,9 @@ background: linear-gradient(90deg, rgba(32,23,121,1) 25%, rgb(167, 57, 57) 39%, 
     /*   justify-content: center; */
     /*   align-items: center; */
     }
-
+  h2{
+    font-weight: bolder;
+  }
     #hata{
       width:70vw;
      height: 7vh;
