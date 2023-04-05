@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  body{
+    background-color: black;
+  }
+  .container{
+    background-color: grey;
+    border: 5px solid white;
+    border-radius: 10px;
+    height:70vh;
+    width:60vw;
+    margin: auto ;
+    margin-top: 15vh;
+    text-align : center;
+  
+  /*   display: flex; */
+  /*   justify-content: center; */
+  /*   align-items: center; */
+  }
+  #hata{
+     width:40vw;
+    height:10vh;
+    font-size: 20px;
+  }
+  #buttons{
+    background-color: black;
+    color: white;
+  /*   padding: 4px 10px; */
+     
+     width:40vw;
+    height:5vh;
+    border-radius: 20px;
+    font-size: 20px;
+  }
