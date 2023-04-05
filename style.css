@@ -1,15 +1,60 @@
-html {
-    height: 100%;
+*{
+  margin: 0;
+  padding: 0;
+}
+
+  #h11
+  {
+    width: 100vw;
+    height: 15vh;
+    background-color: black;
+    display: grid;
+    /* text-align: center; */
+    place-items: center;
+  }
+  h1{
+   
+  
+   
+   color: aliceblue;
+   position: relative;
+   
+  }
+  h1::before{
+    /* width: 100%; */
+    content: "GURJAR ";
+   color: rgb(189, 62, 15);
+   position: absolute;
+   top: auto;
+   left: auto;
+   /* border-right: .4rem solid rgb(189, 62, 15); */
+  animation:  slide 3s linear infinite;
+  /* -webkit-animation:  slide 3s linear infinite;   */
+  overflow: hidden;
+}
+@keyframes slide{
+  0%{
+    width: 0%;
+  }
+  50%{
     width: 100%;
   }
+  100%{
+    width: 0%;
+  }
+}
+
   body{
-    background-color: black;
+    background: rgb(21,34,43);
+    background: linear-gradient(90deg, rgba(21,34,43,1) 25%, rgba(21,34,43,1) 37%, rgba(54,67,75,1) 100%);
+    font-family: cursive;
   }
   .container{
-    background-color: grey;
+    background: rgb(32,23,121);
+background: linear-gradient(90deg, rgba(32,23,121,1) 25%, rgb(167, 57, 57) 39%, rgba(85,40,64,1) 62%, rgb(62, 5, 59) 71%, rgba(54,67,75,1) 100%);
     border: 5px solid white;
     border-radius: 10px;
-    height:70vh;
+    /* height:70vh; */
     width:60vw;
     margin: auto ;
     margin-top: 15vh;
@@ -33,4 +78,28 @@ html {
     height:5vh;
     border-radius: 20px;
     font-size: 20px;
+  }
+
+  @media (max-width: 660px) {
+    .container{
+      background: rgb(32,23,121);
+  background: linear-gradient(90deg, rgba(32,23,121,1) 25%, rgb(167, 57, 57) 39%, rgba(85,40,64,1) 62%, rgb(62, 5, 59) 71%, rgba(54,67,75,1) 100%);
+      border: 5px solid white;
+      border-radius: 10px;
+      /* height:70vh; */
+      width:90vw;
+      margin: auto ;
+      margin-top: 15vh;
+      text-align : center;
+    
+    /*   display: flex; */
+    /*   justify-content: center; */
+    /*   align-items: center; */
+    }
+
+    #hata{
+      width:70vw;
+     height: 7vh;
+     font-size: 15px;
+   }
   }
