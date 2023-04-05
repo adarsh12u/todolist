@@ -105,3 +105,7 @@ background: linear-gradient(90deg, rgba(32,23,121,1) 25%, rgb(167, 57, 57) 39%, 
      font-size: 15px;
    }
   }
+  #list{
+    color: rgb(182, 226, 226);
+    font-family: 'Kalam', cursive;
+  }
