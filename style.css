@@ -59,7 +59,7 @@ background: linear-gradient(90deg, rgba(32,23,121,1) 25%, rgb(167, 57, 57) 39%, 
     margin: auto ;
     margin-top: 15vh;
     text-align : center;
-  
+  overflow: scroll;
   /*   display: flex; */
   /*   justify-content: center; */
   /*   align-items: center; */
@@ -88,9 +88,10 @@ background: linear-gradient(90deg, rgba(32,23,121,1) 25%, rgb(167, 57, 57) 39%, 
       border-radius: 10px;
       /* height:70vh; */
       width:90vw;
+      overflow: scroll;
       margin: auto ;
       margin-top: 15vh;
-      text-align : center;
+      text-align : center; 
     
     /*   display: flex; */
     /*   justify-content: center; */
@@ -108,4 +109,5 @@ background: linear-gradient(90deg, rgba(32,23,121,1) 25%, rgb(167, 57, 57) 39%, 
   #list{
     color: rgb(182, 226, 226);
     font-family: 'Kalam', cursive;
+   
   }
