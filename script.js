@@ -1,11 +1,21 @@
 buttons.addEventListener('click', (e) => {
+
+  
+  let value = hata.value
+
+ 
+
+  if(value && value != "required")
+  {
     e.preventDefault()
     let List = document.getElementById("list")
     let dive = document.createElement("div")
     dive.id = "ids"
     List.appendChild(dive)
-    let value = hata.value
-    localStorage.setItem("todo", value)
+
+
+    
+   localStorage.setItem("todo", value)
     // let v=localStorage.getItem("todo") 
     dive.innerHTML =
       `   <h1>${localStorage.getItem("todo")}  <button class="butto" style=" background-color: black;
@@ -22,6 +32,12 @@ buttons.addEventListener('click', (e) => {
       localStorage.removeItem("todo")
       dive.remove();
     })
+  }
+ 
+else{
+ hata.value = `required`
+
+}
   })
   
   
